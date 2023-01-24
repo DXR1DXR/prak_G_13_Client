@@ -28,7 +28,7 @@ namespace prak_G_13_Client
         {
             Version latestVersion = Get_Latest_Version().Result;
             var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
-            if (currentversion == latestVersion)//TODO <
+            if (currentversion < latestVersion)//TODO <
             {
                 var tempPath = System.IO.Path.GetTempPath();
                 var tempProjPath = tempPath + "prak_G_13";
