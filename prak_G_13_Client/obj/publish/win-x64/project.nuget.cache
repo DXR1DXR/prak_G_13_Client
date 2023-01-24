@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9cIRKNt24TenZ5SOMfQBis4K6Q5VlfbBsxr5KIuLYJVhnfm9hZtdpSp8sM/vWJTrVhhfwBId1ZoYUAxjv6rLZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.12\\microsoft.netcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.12\\microsoft.aspnetcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.12\\microsoft.netcore.app.crossgen2.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
