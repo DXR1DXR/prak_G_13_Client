@@ -48,3 +48,5 @@ C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-w
 C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.pdb
 C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.genruntimeconfig.cache
 C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\ref\prak_G_13_Client.dll
+C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.Properties.Resources.resources
+C:\Users\tntbk\Source\Repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.csproj.GenerateResource.cache
