@@ -28,7 +28,8 @@ namespace prak_G_13_Client
             var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
             if (currentversion < latestVersion)
             {
-                //Logic
+                var tempPath = System.IO.Path.GetTempPath();
+                var tempProjPath = tempPath + "\\prak_G_13";
             }
             InitializeComponent();
         }

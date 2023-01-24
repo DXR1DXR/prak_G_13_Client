@@ -53,7 +53,7 @@ namespace prak_G_13_Client {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/prak_G_13_Client;V0.0.0.1;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/prak_G_13_Client;V0.0.0.3;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
