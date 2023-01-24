@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj": {}
+    "C:\\Users\\tntbk\\source\\repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj": {
+    "C:\\Users\\tntbk\\source\\repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj",
+        "projectUniqueName": "C:\\Users\\tntbk\\source\\repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj",
         "projectName": "prak_G_13_Client",
-        "projectPath": "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj",
+        "projectPath": "C:\\Users\\tntbk\\source\\repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj",
         "packagesPath": "C:\\Users\\tntbk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\obj\\publish\\win-x64\\",
+        "outputPath": "C:\\Users\\tntbk\\source\\repos\\prak_G_13_Client\\prak_G_13_Client\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\vssdk\\NuGetPackages"
