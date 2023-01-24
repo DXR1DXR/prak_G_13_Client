@@ -24,16 +24,19 @@ namespace prak_G_13_Client
     {
         public MainWindow()
         {
-            Get_Latest_Version();
-            InitializeComponent(); //
+            Version latestVersion = Get_Latest_Version().Result;
+            var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
+            InitializeComponent();
+            
             
         }
-        private async Version Get_Latest_Version()
+        private async Task<Version> Get_Latest_Version()
         {
             GitHubClient gitHubClient = new GitHubClient(new ProductHeaderValue("prak_G_13_Client"));
-            var releases = await gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
-            var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
-            return new Version(currentversion);
+            var releases = gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
+            var latestVersion = new Version(releases.Result.Last().Name.Remove(0, 1));
+
+            return latestVersion;
         }
         
     }
