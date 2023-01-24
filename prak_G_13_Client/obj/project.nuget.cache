@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ekGHxyLmONNQ+SzrII3XTVwDWGdx1sCUtT/KfAFrVV+4bv5FqJc8SGYB19Jb7j4K9PxzdVUZ5szP2ZNG+nCgkg==",
+  "dgSpecHash": "/vtbDkej7B4ADHefYu/Ee9K0Hmgh5F4Ac3RkEiwMWHHpFeV2LnXTGY3tX/hZgDYpl6PwRPFrbjZtqW6dX+2dEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

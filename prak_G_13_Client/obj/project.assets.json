@@ -1,11 +1,118 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Octokit/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Octokit.Reactive/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Octokit": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Octokit.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Octokit/5.0.0": {
+      "sha512": "cNspbuFsQSjbKIl+9Ko+XwvfepekDHQncnewKwCDjmsL8HaIujgKlWzmkWnWPVCmZvBdGVp2JsVECIsOkYK/MA==",
+      "type": "package",
+      "path": "octokit/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Octokit.dll",
+        "lib/netstandard2.0/Octokit.xml",
+        "octokit.5.0.0.nupkg.sha512",
+        "octokit.nuspec",
+        "octokit.png"
+      ]
+    },
+    "Octokit.Reactive/5.0.0": {
+      "sha512": "ZryvFqi/rPx+kj6uB9xIOf6OiBAu8HM5gk5+hGCQNgeFi39+xhDRRZnm/Wz8E/o9HkEaoTPRagfmTBBFVCvmIQ==",
+      "type": "package",
+      "path": "octokit.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Octokit.Reactive.dll",
+        "lib/netstandard2.0/Octokit.Reactive.xml",
+        "octokit.png",
+        "octokit.reactive.5.0.0.nupkg.sha512",
+        "octokit.reactive.nuspec"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Octokit.Reactive >= 5.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
@@ -14,9 +121,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
       "projectName": "prak_G_13_Client",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\obj\\",
       "projectStyle": "PackageReference",
@@ -50,6 +157,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Octokit.Reactive": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

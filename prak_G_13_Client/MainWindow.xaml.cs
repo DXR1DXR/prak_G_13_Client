@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Octokit;
 
 namespace prak_G_13_Client
 {
@@ -23,6 +24,11 @@ namespace prak_G_13_Client
         public MainWindow()
         {
             InitializeComponent(); //
+        }
+        private void Get_Latest_Version()
+        {
+            GitHubClient gitHubClient = new GitHubClient(new ProductHeaderValue("prak_G_13_Client"));
+            var releases = gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
         }
     }
 }
