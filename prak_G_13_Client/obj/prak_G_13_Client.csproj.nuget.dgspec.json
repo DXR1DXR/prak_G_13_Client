@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj": {}
+    "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj": {
+    "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
         "projectName": "prak_G_13_Client",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\obj\\",
         "projectStyle": "PackageReference",
