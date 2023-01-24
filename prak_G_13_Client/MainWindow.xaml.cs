@@ -23,12 +23,14 @@ namespace prak_G_13_Client
     {
         public MainWindow()
         {
+            Get_Latest_Version();
             InitializeComponent(); //
+            
         }
-        private void Get_Latest_Version()
+        private async void Get_Latest_Version()
         {
             GitHubClient gitHubClient = new GitHubClient(new ProductHeaderValue("prak_G_13_Client"));
-            var releases = gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
+            var releases = await gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
         }
     }
 }

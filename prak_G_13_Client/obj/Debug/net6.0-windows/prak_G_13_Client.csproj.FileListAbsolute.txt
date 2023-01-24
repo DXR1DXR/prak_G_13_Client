@@ -19,3 +19,7 @@ C:\Users\User\Source\Repos\prak_G_13_ClientGit\prak_G_13_Client\obj\Debug\net6.0
 C:\Users\User\Source\Repos\prak_G_13_ClientGit\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.pdb
 C:\Users\User\Source\Repos\prak_G_13_ClientGit\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.genruntimeconfig.cache
 C:\Users\User\Source\Repos\prak_G_13_ClientGit\prak_G_13_Client\obj\Debug\net6.0-windows\ref\prak_G_13_Client.dll
+C:\Users\User\source\repos\prak_G_13_ClientGit\prak_G_13_Client\bin\Debug\net6.0-windows\Octokit.dll
+C:\Users\User\source\repos\prak_G_13_ClientGit\prak_G_13_Client\bin\Debug\net6.0-windows\Octokit.Reactive.dll
+C:\Users\User\source\repos\prak_G_13_ClientGit\prak_G_13_Client\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\User\source\repos\prak_G_13_ClientGit\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.csproj.CopyComplete
