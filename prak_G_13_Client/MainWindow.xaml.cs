@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -31,6 +32,8 @@ namespace prak_G_13_Client
         {
             GitHubClient gitHubClient = new GitHubClient(new ProductHeaderValue("prak_G_13_Client"));
             var releases = await gitHubClient.Repository.Release.GetAll("DXR1DXR", "prak_G_13_Client");
+            var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
+
         }
     }
 }
