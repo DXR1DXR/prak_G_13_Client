@@ -22,7 +22,7 @@ namespace prak_G_13_Client
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); //
         }
     }
 }
