@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "prak_G_13_Client/1.0.0": {
+        "runtime": {
+          "prak_G_13_Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prak_G_13_Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
