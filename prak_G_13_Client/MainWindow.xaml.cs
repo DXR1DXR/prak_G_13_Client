@@ -31,7 +31,7 @@ namespace prak_G_13_Client
             if (currentversion == latestVersion)//TODO <
             {
                 var tempPath = System.IO.Path.GetTempPath();
-                var tempProjPath = tempPath + "\\prak_G_13";
+                var tempProjPath = tempPath + "prak_G_13";
                 var updaterPath = tempProjPath + "\\Updater.exe";
                 Directory.CreateDirectory(tempProjPath);
                 var ress = GetType().Assembly.GetManifestResourceNames();
@@ -47,6 +47,8 @@ namespace prak_G_13_Client
                     }
                 }
                 Process.Start(updaterPath, new List<string>() { Directory.GetCurrentDirectory() + "\\prak_G_13_Client.exe" });
+                this.Close();
+
             }
             InitializeComponent();
         }
