@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "9cIRKNt24TenZ5SOMfQBis4K6Q5VlfbBsxr5KIuLYJVhnfm9hZtdpSp8sM/vWJTrVhhfwBId1ZoYUAxjv6rLZA==",
+  "dgSpecHash": "xEABc6gzgNoEvsM4NScI4KsfPLDOgmKy1yVjxMMkg+b6L3op4jOkVmTDwH/o+xDnKKv4X3OommY2YHppausQRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\prak_G_13_ClientGit\\prak_G_13_Client\\prak_G_13_Client.csproj",
+  "projectFilePath": "C:\\Users\\tntbk\\Source\\Repos\\prak_G_13_Client\\prak_G_13_Client\\prak_G_13_Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.12\\microsoft.netcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.12.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.12\\microsoft.aspnetcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.12\\microsoft.netcore.app.crossgen2.win-x64.6.0.12.nupkg.sha512"
+    "C:\\Users\\tntbk\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.8\\microsoft.netcore.app.runtime.win-x64.6.0.8.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.8.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.8\\microsoft.aspnetcore.app.runtime.win-x64.6.0.8.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.8\\microsoft.netcore.app.crossgen2.win-x64.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }
