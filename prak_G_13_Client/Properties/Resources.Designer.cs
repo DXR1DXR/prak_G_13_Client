@@ -59,15 +59,5 @@ namespace prak_G_13_Client.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] Updater {
-            get {
-                object obj = ResourceManager.GetObject("Updater", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
