@@ -46,6 +46,9 @@ namespace prak_G_13_Client
                         resource.CopyTo(output);
                     }
                 }
+                string user = "DXR1DXR";
+                string project = "prak_G_13_Client";
+                string file = "prak_G_13_Client";
                 Process.Start(updaterPath, new List<string>() { Directory.GetCurrentDirectory() + "\\prak_G_13_Client.exe" });
                 this.Close();
 
