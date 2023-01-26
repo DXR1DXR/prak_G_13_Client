@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\App.xaml
-11407045341
+3-224303740
 
-7880826271
+11-982277539
 197-1351492388
-MainWindow.xaml;
+LoginPage.xaml;MainWindow.xaml;StuffPage.xaml;
 
 True
 

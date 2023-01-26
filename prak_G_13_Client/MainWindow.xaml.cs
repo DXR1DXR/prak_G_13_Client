@@ -53,9 +53,9 @@ namespace prak_G_13_Client
                             resource.CopyTo(output);
                         }
                     }
-                    string user = "DXR1DXR";
-                    string project = "prak_G_13_Client";
-                    string file = "prak_G_13_Client.exe";
+                    string user = AppInfo.GetInstance().user;
+                    string project = AppInfo.GetInstance().project;
+                    string file = AppInfo.GetInstance().file;
                     Process.Start(updaterPath, new List<string>() { Directory.GetCurrentDirectory() + "\\prak_G_13_Client.exe", user, project, file });
                     this.Close();
                 }

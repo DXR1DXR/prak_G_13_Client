@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image Source="/Resources/sdgfdsf.png" VerticalAlignment="Center" HorizontalAlignment="Center" Height="500" Width="500"/>
+        <!--<Image Source="/Resources/sdgfdsf.png" VerticalAlignment="Center" HorizontalAlignment="Center" Height="500" Width="500"/>-->
         <!--<TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20">v0.13</TextBlock>-->
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
+        
     </Grid>
 </Window>
