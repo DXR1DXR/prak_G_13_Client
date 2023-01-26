@@ -72,6 +72,10 @@ namespace prak_G_13_Client
             var latestVersion = new Version(releases.Result.Name.Remove(0, 1));
             return latestVersion;
         }
-        
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MainFrame.NavigationService.Navigate(new StuffPage());
+        }
     }
 }

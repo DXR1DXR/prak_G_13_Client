@@ -24,5 +24,10 @@ namespace prak_G_13_Client
         {
             InitializeComponent();
         }
+
+        private void EnterBT_Click(object sender, RoutedEventArgs e)
+        {
+            //
+        }
     }
 }
