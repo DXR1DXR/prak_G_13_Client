@@ -26,33 +26,7 @@ namespace prak_G_13_Client
     {
         public MainWindow()
         {
-            Version latestVersion = Get_Latest_Version().Result;
-            var currentversion = Assembly.GetExecutingAssembly().GetName().Version;
-            if (currentversion < latestVersion)//TODO <
-            {
-                var tempPath = System.IO.Path.GetTempPath();
-                var tempProjPath = tempPath + "prak_G_13";
-                var updaterPath = tempProjPath + "\\Updater.exe";
-                Directory.CreateDirectory(tempProjPath);
-                var ress = GetType().Assembly.GetManifestResourceNames();
-                using (Stream resource = new MemoryStream(Properties.Resources.Updater))
-                {
-                    if (resource == null)
-                    {
-                        throw new ArgumentException("No such resource", "resourceName");
-                    }
-                    using (Stream output = File.OpenWrite(updaterPath))
-                    {
-                        resource.CopyTo(output);
-                    }
-                }
-                string user = "DXR1DXR";
-                string project = "prak_G_13_Client";
-                string file = "prak_G_13_Client.exe";
-                Process.Start(updaterPath, new List<string>() { Directory.GetCurrentDirectory() + "\\prak_G_13_Client.exe", user, project, file });
-                this.Close();
-
-            }
+            Update();
             InitializeComponent();
         }
         private void Update()
@@ -84,7 +58,6 @@ namespace prak_G_13_Client
                     string file = "prak_G_13_Client.exe";
                     Process.Start(updaterPath, new List<string>() { Directory.GetCurrentDirectory() + "\\prak_G_13_Client.exe", user, project, file });
                     this.Close();
-
                 }
             }
             catch
