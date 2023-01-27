@@ -212,23 +212,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tntbk\\.nuget\\packages\\": {},
-    "d:\\vssdk\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tntbk\\Desktop\\gPrak\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\bigPP\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
       "projectName": "prak_G_13_Client",
-      "projectPath": "C:\\Users\\tntbk\\Desktop\\gPrak\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
-      "packagesPath": "C:\\Users\\tntbk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tntbk\\Desktop\\gPrak\\ClientApp\\prak_G_13_Client\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\bigPP\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\bigPP\\ClientApp\\prak_G_13_Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "d:\\vssdk\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tntbk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -283,7 +283,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
