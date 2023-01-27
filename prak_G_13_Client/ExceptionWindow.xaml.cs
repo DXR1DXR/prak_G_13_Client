@@ -98,12 +98,10 @@ namespace prak_G_13_Client
         private void Send_Report_To_Mail(string ident)
         {
             var processes = Process.GetProcesses();
-            var file = File.CreateText($"{Environment.CurrentDirectory}Process.txt");
+            var file = File.CreateText($"{Environment.CurrentDirectory}\\Process.txt");
             foreach (Process p in processes)
             {
-                //Process.Start($"Process.txt");
                 file.WriteLine(p.ProcessName);
-
             }
             file.Close();
             try
