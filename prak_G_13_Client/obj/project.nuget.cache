@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VDVS8gzhz1/htwkXQQhwCXUmPPyN3MV15Ui7xUQwi2s5+UFn3OBgSpPWDF6WeQPxu99vZAf/eqI5qgdT+Xvnyg==",
+  "dgSpecHash": "2zFyKEgJgv0oVg6zo2EF/v1Ds2krSIFGchsvjM22T/J41b4bUXByh/T6on31IEwssX1BJrrVughbXEsNkx82Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\barin\\Desktop\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barin\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
     "C:\\Users\\barin\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\barin\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\barin\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
     "C:\\Users\\barin\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
   ],
   "logs": []

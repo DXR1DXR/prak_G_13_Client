@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\tntbk\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\barin\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\barin\\.nuget\\packages"
     ],
     "configProperties": {

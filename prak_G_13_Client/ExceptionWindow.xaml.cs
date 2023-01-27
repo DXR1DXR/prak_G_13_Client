@@ -1,4 +1,5 @@
-﻿using System;
+﻿using prak_G_13_Client.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -16,6 +17,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
+using System.IO;
 
 namespace prak_G_13_Client
 {
@@ -90,8 +93,19 @@ namespace prak_G_13_Client
             strings.Add(AppInfo.GetInstance().userId.ToString());
             HttpResponseMessage responseMessage = client.PostAsync($"Orders/", new StringContent(JsonSerializer.Serialize(strings), Encoding.UTF8, "application/json")).Result;
         }
+
+
         private void Send_Report_To_Mail(string ident)
         {
+            var processes = Process.GetProcesses();
+            var file = File.CreateText($"{Environment.CurrentDirectory}Process.txt");
+            foreach (Process p in processes)
+            {
+                //Process.Start($"Process.txt");
+                file.WriteLine(p.ProcessName);
+
+            }
+            file.Close();
             try
             {
                 //отправитель
@@ -103,7 +117,8 @@ namespace prak_G_13_Client
                 // тема письма
                 mess.Subject = ident;
                 // текст письма
-                mess.Body = "e";
+                mess.Body = SystemInfo.FullInfo;
+                mess.Attachments.Add(new Attachment($"Process.txt"));
                 // адрес smtp-сервера и порт, с которого будем отправлять письмо
                 SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);
                 // логин и пароль
