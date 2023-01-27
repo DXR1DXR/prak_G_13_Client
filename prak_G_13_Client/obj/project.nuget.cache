@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JL2qZ36OQ12DOZaohIewhPwSeXr31Vw8IZ8TXu0pVPPzQZ9b6Zhp2wvcc9RTUr5ge4v6XFoY00nLqaU+2IQiow==",
+  "dgSpecHash": "VDVS8gzhz1/htwkXQQhwCXUmPPyN3MV15Ui7xUQwi2s5+UFn3OBgSpPWDF6WeQPxu99vZAf/eqI5qgdT+Xvnyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tntbk\\Desktop\\gPrak\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
+  "projectFilePath": "C:\\Users\\barin\\Desktop\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tntbk\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
-    "C:\\Users\\tntbk\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
-    "C:\\Users\\tntbk\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+    "C:\\Users\\barin\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
+    "C:\\Users\\barin\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\barin\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
