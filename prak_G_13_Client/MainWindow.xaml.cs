@@ -28,7 +28,17 @@ namespace prak_G_13_Client
         {
             Update();
             InitializeComponent();
+            this.Dispatcher.UnhandledException += Dispatcher_UnhandledException;
         }
+
+        private void Dispatcher_UnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
+        {
+            ExceptionWindow exceptionWindow = new ExceptionWindow(e.Exception);
+            exceptionWindow.Show();
+            e.Handled = true;
+            Close();
+        }
+
         private void Update()
         {
             try
@@ -75,7 +85,7 @@ namespace prak_G_13_Client
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            MainFrame.NavigationService.Navigate(new StuffPage());
+            MainFrame.NavigationService.Navigate(new LoginPage());
         }
     }
 }

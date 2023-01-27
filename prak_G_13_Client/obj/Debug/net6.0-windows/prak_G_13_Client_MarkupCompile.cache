@@ -1,20 +1,20 @@
 ﻿prak_G_13_Client
-0.0.0.5
+0.0.0.16
 
 winexe
 C#
 .cs
-C:\Users\tntbk\source\repos\prak_G_13_Client\prak_G_13_Client\obj\Debug\net6.0-windows\
+C:\Users\tntbk\Desktop\gPrak\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\
 prak_G_13_Client
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\tntbk\source\repos\prak_G_13_Client\prak_G_13_Client\App.xaml
-11407045341
+C:\Users\tntbk\Desktop\gPrak\ClientApp\prak_G_13_Client\App.xaml
+4-347596107
 
-51860370096
+10-1653837286
 197-1833748160
-MainWindow.xaml;
+ExceptionWindow.xaml;LoginPage.xaml;MainWindow.xaml;StuffPage.xaml;
 
 False
 

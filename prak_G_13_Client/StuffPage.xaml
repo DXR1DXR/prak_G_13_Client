@@ -12,14 +12,14 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Border VerticalAlignment="Center" BorderBrush="Aqua" BorderThickness="2">
                 <StackPanel Orientation="Vertical">
-                    <TextBlock>Ни в коем случае не вводить буквы!!</TextBlock>
-                    <TextBox></TextBox>
+                    <TextBlock >Ни в коем случае не вводить буквы!!</TextBlock>
+                    <TextBox x:Name="LetterTB" TextChanged="LetterTB_TextChanged"></TextBox>
                 </StackPanel>
             </Border>
             <Border VerticalAlignment="Center" BorderBrush="Aqua" BorderThickness="2">
                 <StackPanel Orientation="Vertical">
                     <TextBlock>Ни в коем случае не вводить 0!!</TextBlock>
-                    <TextBox></TextBox>
+                    <TextBox x:Name="ZeroTB" TextChanged="ZeroTB_TextChanged"></TextBox>
                 </StackPanel>
             </Border>
         </StackPanel>

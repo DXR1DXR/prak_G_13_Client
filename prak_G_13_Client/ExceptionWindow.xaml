@@ -1,0 +1,23 @@
+﻿<Window x:Class="prak_G_13_Client.ExceptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prak_G_13_Client"
+        mc:Ignorable="d"
+        Title="ExceptionWindow" Height="300" Width="700">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock FontSize="20" HorizontalAlignment="Center">Приложение завершилось с непредвиденной ошибкой</TextBlock>
+            <CheckBox x:Name="cb1" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">Отправить отчёт об ошибках?</CheckBox>
+            <StackPanel x:Name="sp1" Orientation="Vertical" HorizontalAlignment="Center"  Visibility="Collapsed">
+                <TextBlock FontSize="20" HorizontalAlignment="Center" >Укажите почту для обратной связи</TextBlock>
+                <TextBox x:Name="MailTB">xyi@xyi.com</TextBox>
+                <TextBlock FontSize="20" HorizontalAlignment="Center">Что вы делали, когда произошел сбой (необязательно)?</TextBlock>
+                <TextBox Height="100" x:Name="StepsTB">xyi</TextBox>
+            </StackPanel>
+            <Button Width="70" x:Name="ReadyBT" Click="ReadyBT_Click">Готово</Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>

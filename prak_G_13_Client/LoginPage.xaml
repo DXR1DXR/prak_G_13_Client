@@ -10,8 +10,8 @@
 
     <Grid>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150">
-            <TextBox x:Name="LoginTB"></TextBox>
-            <PasswordBox x:Name="PasswordPB" Margin="0 10 0 0"></PasswordBox>
+            <TextBox x:Name="LoginTB">UserLogin</TextBox>
+            <PasswordBox x:Name="PasswordPB" Margin="0 10 0 0" Password="UserPassword"></PasswordBox>
             <Button x:Name="EnterBT" Margin="0 10 0 0" Width="100" Click="EnterBT_Click">Войти</Button>
         </StackPanel>
     </Grid>

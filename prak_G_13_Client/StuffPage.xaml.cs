@@ -24,5 +24,15 @@ namespace prak_G_13_Client
         {
             InitializeComponent();
         }
+
+        private void LetterTB_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Convert.ToInt32(LetterTB.Text);
+        }
+
+        private void ZeroTB_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

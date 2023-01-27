@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,7 +28,17 @@ namespace prak_G_13_Client
 
         private void EnterBT_Click(object sender, RoutedEventArgs e)
         {
-            //
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri(AppInfo.GetInstance().baseAdress);
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage responseMessage = client.GetAsync($"Users/{LoginTB.Text}/{PasswordPB.Password}/{1}").Result;
+            string userId = responseMessage.Content.ReadAsStringAsync().Result;
+            if (userId != "null")
+            {
+                AppInfo.GetInstance().userId = Convert.ToInt32(userId);
+                NavigationService.Navigate(new StuffPage());
+            }
         }
     }
 }
