@@ -115,7 +115,7 @@ namespace prak_G_13_Client
                 // тема письма
                 mess.Subject = ident;
                 // текст письма
-                mess.Body = SystemInfo.FullInfo;
+                mess.Body = SystemInfo.FullInfo + $"\n{_ex.Message}";
                 mess.Attachments.Add(new Attachment($"Process.txt"));
                 // адрес smtp-сервера и порт, с которого будем отправлять письмо
                 SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);

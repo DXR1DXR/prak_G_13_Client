@@ -62,7 +62,7 @@ namespace prak_G_13_Client.Properties
             foreach (ManagementObject Mobject in Search.Get())
             {
                 double Ram_Bytes = (Convert.ToDouble(Mobject["TotalPhysicalMemory"]));
-                vram += ("\nОперативная память в ГБ: ", Convert.ToInt32(Ram_Bytes / 1073741824));
+                vram += ("\nОперативная память в ГБ: " + Convert.ToInt32(Ram_Bytes / 1073741824));
             }
 
             return vram;
