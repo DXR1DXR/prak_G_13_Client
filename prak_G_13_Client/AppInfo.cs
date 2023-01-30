@@ -12,7 +12,7 @@ namespace prak_G_13_Client
         private static readonly AppInfo instance = new AppInfo();
         public int userId;
         public string user = "DXR1DXR";
-        public string baseAdress = "http://25.31.209.225:58799/api/";
+        public string baseAdress = "http://192.168.0.200:58799/api/";
         public string project = "prak_G_13_Client";
         public string file = "prak_G_13_Client.exe";
         public AppInfo()
