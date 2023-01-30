@@ -85,7 +85,6 @@ namespace prak_G_13_Client
             client.BaseAddress = new Uri(AppInfo.GetInstance().baseAdress);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-            
             List<string> strings = new List<string>();
             strings.Add(ident);
             strings.Add(_ex.Message);
