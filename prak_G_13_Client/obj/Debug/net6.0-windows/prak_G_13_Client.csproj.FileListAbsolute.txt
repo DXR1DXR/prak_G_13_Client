@@ -194,3 +194,7 @@ C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.pdb
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\prak_G_13_Client.genruntimeconfig.cache
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\ref\prak_G_13_Client.dll
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\App.baml

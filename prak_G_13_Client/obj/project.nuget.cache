@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MiGjogLA6So2QBFGUeX7EFhSwn4I22In0oTQYUOlSuQSsFPc7G3+bXngbQeXY7cRsLckj+VHxErM/Q9G8R4SPA==",
+  "dgSpecHash": "yg7dDaMzgdxmOtURn2xYtx890WgRTPEdlVbbw9XGolFgOxcI5cqMErAQSVdA0A3LoOtMeVo3xHSU2qgpeRwrjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tntbk\\Desktop\\bigPP\\ClientApp\\prak_G_13_Client\\prak_G_13_Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tntbk\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\tntbk\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
     "C:\\Users\\tntbk\\.nuget\\packages\\octokit\\5.0.0\\octokit.5.0.0.nupkg.sha512",
     "C:\\Users\\tntbk\\.nuget\\packages\\octokit.reactive\\5.0.0\\octokit.reactive.5.0.0.nupkg.sha512",
     "C:\\Users\\tntbk\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",

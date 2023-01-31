@@ -129,5 +129,51 @@ namespace prak_G_13_Client
                 throw new Exception("Mail.Send: " + e.Message);
             }
         }
+        private void TitleBar_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                Application.Current.MainWindow.DragMove();
+        }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+        private void MaximizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            AdjustWindowSize();
+        }
+        private void MinimizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+        private void AdjustWindowSize()
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                this.WindowState = WindowState.Normal;
+                MaxButton.Content = "Развернуть";
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+                MaxButton.Content = "Свернуть";
+            }
+
+        }
+
+        private void Window_StateChanged(object sender, EventArgs e)
+        {
+            if (TopWindow.WindowState == WindowState.Normal)
+            {
+                SecondBorder.Margin = new Thickness(0);
+                //RootWindow.Margin = new Thickness(5, 5, 5, 0);
+                //MainFrame.Margin = new Thickness(0);
+            }
+            else if (TopWindow.WindowState == WindowState.Maximized)
+            {
+                SecondBorder.Margin = new Thickness(5);
+            }
+        }
     }
 }

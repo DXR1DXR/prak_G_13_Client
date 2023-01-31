@@ -5,11 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:prak_G_13_Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
-    <Grid>
-        <!--<Image Source="/Resources/sdgfdsf.png" VerticalAlignment="Center" HorizontalAlignment="Center" Height="500" Width="500"/>-->
-        <!--<TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20">v0.13</TextBlock>-->
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
+        x:Name="TopWindow"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        Title="UserApp" Height="450" Width="800" Loaded="Window_Loaded" StateChanged="Window_StateChanged">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0,0,0,0" CornerRadius="12" CaptionHeight="50"/>
+    </WindowChrome.WindowChrome>
+    <Border Background="White" CornerRadius="10" BorderThickness="0">
+        <Border Margin="0" x:Name="SecondBorder">
+            <DockPanel LastChildFill="True">
+                <DockPanel x:Name="RootWindow" Grid.Row="0" VerticalAlignment="Center" WindowChrome.IsHitTestVisibleInChrome="True" DockPanel.Dock="Top">
+                    <DockPanel Margin="5 5 5 0" x:Name="TitleBar" DockPanel.Dock="Top" MouseDown="TitleBar_MouseDown">
+                        <Button x:Name="CloseButton" Content="Закрыть"
+                    Click="CloseButton_Click"
+                    DockPanel.Dock="Right" Margin="5 0 0 0"/>
+                        <Button x:Name="MaxButton" Content="Развернуть"
+                    Click="MaximizeButton_Click"
+                    DockPanel.Dock="Right" Margin="5 0 0 0"/>
+                        <Button x:Name="MinButton" Content="Скрыть"
+                    Click="MinimizeButton_Click"
+                    DockPanel.Dock="Right" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Пользовательское приложение</TextBlock>
+                    </DockPanel>
+
+                    <ContentControl Content="{Binding CurrentPage}" />
+                </DockPanel>
+                <Frame Margin="0 3 0 0" x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"></Frame>
+
+
+            </DockPanel>
+        </Border>
         
-    </Grid>
+    </Border>
 </Window>

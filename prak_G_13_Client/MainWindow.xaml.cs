@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -16,6 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Octokit;
+using Application = System.Windows.Application;
 
 namespace prak_G_13_Client
 {
@@ -87,6 +89,51 @@ namespace prak_G_13_Client
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             MainFrame.NavigationService.Navigate(new LoginPage());
+        }
+        private void TitleBar_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                Application.Current.MainWindow.DragMove();
+        }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+        private void MaximizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            AdjustWindowSize();
+        }
+        private void MinimizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+        private void AdjustWindowSize()
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                this.WindowState = WindowState.Normal;
+                MaxButton.Content = "Развернуть";
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+                MaxButton.Content = "Свернуть";
+            }
+
+        }
+
+        private void Window_StateChanged(object sender, EventArgs e)
+        {
+            if (TopWindow.WindowState == WindowState.Normal)
+            {
+                SecondBorder.Margin = new Thickness(0);
+                //RootWindow.Margin = new Thickness(5, 5, 5, 0);
+                //MainFrame.Margin = new Thickness(0);
+            } else if(TopWindow.WindowState == WindowState.Maximized)
+            {
+                SecondBorder.Margin = new Thickness(5);
+            }
         }
     }
 }

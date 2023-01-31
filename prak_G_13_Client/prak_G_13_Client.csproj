@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
     <PackageReference Include="Octokit.Reactive" Version="5.0.0" />
     <PackageReference Include="System.Management" Version="7.0.0" />
   </ItemGroup>
