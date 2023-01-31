@@ -16,7 +16,7 @@
                 <ToggleButton></ToggleButton>
                 <TextBlock>Авторизация</TextBlock>
             </StackPanel>
-            <TextBox MinWidth="100" HorizontalAlignment="Center" x:Name="LoginTB">89263777137</TextBox>
+            <TextBox MinWidth="100" HorizontalAlignment="Center" x:Name="LoginTB">+79263777137</TextBox>
             <PasswordBox MinWidth="100" HorizontalAlignment="Center" x:Name="PasswordPB" Margin="0 10 0 0" Password="200309032305200589263777137Super!"></PasswordBox>
             <Button x:Name="EnterBT" Margin="0 10 0 0" HorizontalAlignment="Center" Click="EnterBT_Click">Войти</Button>
             <Button x:Name="EnterVKBT" Margin="0 10 0 0" HorizontalAlignment="Center" Click="EnterVKBT_Click">Войти с помощью VK</Button>

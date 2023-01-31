@@ -1,5 +1,8 @@
-﻿using prak_G_13_Client.Properties;
+﻿using Microsoft.Win32;
+using prak_G_13_Client.Properties;
 using System;
+using System.Diagnostics;
+using System.IO;
 using System.Net.Http;
 using System.Windows;
 using System.Windows.Controls;
@@ -44,21 +47,22 @@ namespace prak_G_13_Client
             VkApi api = new VkApi();
             var login = LoginTB.Text;
             var password = PasswordPB.Password;
+            ulong appId = 51539239;
             try
             {
-                api.Authorize(new ApiAuthParams() { Login = login, Password = password, ApplicationId = 51539239 });
+                api.Authorize(new ApiAuthParams { Login = login, Password = password, Settings = VkNet.Enums.Filters.Settings.All });
             }
             catch (Exception ex)
             {
-                using (var client = new HttpClient())
+                if (ex.Message.Contains("Неправильный"))
                 {
-                    client.DefaultRequestHeaders.Accept.Clear();
-                    client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("text/html"));
-                    ulong appId = 51539239;
-                    api.Authorize(new ApiAuthParams() { ApplicationId = appId, Login = login, Password = password, Settings = VkNet.Enums.Filters.Settings.All, TwoFactorAuthorization = () => { string code = "454526"; return code; } });
-                    MessageBox.Show(ex.Message);
+                    //...
+                } else if(ex.Message.Contains("Two")){
+                    api = new VkApi();
+
+                    api.Authorize(new ApiAuthParams { Login = login, Password = password, Settings = VkNet.Enums.Filters.Settings.All });
                 }
-                
+
             }
 
         }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\
+C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\
 prak_G_13_Client
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\App.xaml
-5-1788272889
+C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\App.xaml
+6-231007465
 
-141160141860
-207208478668
-ExceptionWindow.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;StuffPage.xaml;
+15-1236462553
+207-1155847247
+ExceptionWindow.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;StuffPage.xaml;TwoFactor.xaml;
 
-False
+True
 
