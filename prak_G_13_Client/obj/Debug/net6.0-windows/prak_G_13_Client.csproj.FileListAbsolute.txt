@@ -198,8 +198,6 @@ C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\App.baml
-C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\RegisterPage.g.cs
-C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\RegisterPage.baml
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\HtmlAgilityPack.dll
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -218,3 +216,5 @@ C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\
 C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\User\Desktop\bigPP\ClientApp\prak_G_13_Client\bin\Debug\net6.0-windows\VkNet.dll
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\TwoFactor.g.cs
+C:\Users\tntbk\Desktop\bigPP\ClientApp\prak_G_13_Client\obj\Debug\net6.0-windows\TwoFactor.baml
